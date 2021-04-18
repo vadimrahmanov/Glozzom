@@ -1,0 +1,76 @@
+.nav-item .active {
+    border-left: #444 3px solid;
+}
+
+.nav-item .nav-link {
+    font-size: 14px;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background-image: url("../img/image1.jpg");
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background-image: url("../img/image2.jpg");
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background-image: url("../img/image3.jpg");
+    background-size: cover;
+}
+
+.promo {
+    min-height: 200px;
+    background-image: url("../img/lights.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.video {
+    position: relative;
+    min-height: 200px;
+    background-image: url("../img/media.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.banner {
+    background-image: url("../img/image1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 200px;
+    background-position: 0 -360px;
+}
+
+.mission-img {
+    margin-top: -60px;
+}
+
+.faq .card {
+    background-color: #333;
+    cursor: pointer;
+}
